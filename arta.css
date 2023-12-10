@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #333;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #95f58c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main-continer {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  width: 350px;
+  text-align: center;
+  justify-content: center;
+}
+.main-continer1 {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  width: 330px;
+  text-align: center;
+  justify-content: center;
+}
+.main-button {
+  border-radius: 5px;
+  background-color: #95f58c;
+  display: inline-block;
+  width: 290px;
+  height: 60px;
+}
+.cursuri {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 25px;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px;
+}
+.butoane-cursuri {
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #95f58c;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.h1style {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+.mini-cursuri {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 15px;
+}
+.h2style {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  position: top;
+  text-align: center;
+}
+.butoane-cursuri:hover {
+  background-color: #35732f;
+  color: white;
+}
+
+a.homePage {
+  text-decoration: none;
+  font-size: 24px;
+  color: #333;
+  padding: 10px 20px;
+  background-color: #c19a6b;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+a.homePage:hover {
+  background-color: #bb8544;
+}

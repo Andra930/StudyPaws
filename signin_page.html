@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="sty.css" rel="stylesheet" />
+    <title>Sign In</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Sign in</h2>
+      <form class="login-form">
+        <div class="form-group">
+          <label for="surname">Type your surname:</label>
+          <input type="surname" id="surname" name="surname" required />
+        </div>
+
+        <div class="form-group">
+          <label for="name">Type your name:</label>
+          <input type="name" id="name" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Type your E-mail:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Type your phone number:</label>
+          <input type="phone" id="phone" name="phone" optional />
+        </div>
+
+        <div class="form-group">
+          <label for="username">Create an username:</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Creat a password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+      </form>
+      <div class="form-group">
+        <p>You don't have an account?</p>
+        <p>Create one now!</p>
+        <a href="index.html">
+          <button type="submit">Sign in</button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
